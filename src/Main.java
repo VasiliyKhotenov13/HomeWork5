@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         //задание 1 и 2
-        System.out.println("Задание 1 и 2");
+        System.out.println("Задание 1 и 2!");
         int clientOS = 1;
         int clientDeviceYear = 2015;
         if (clientOS == 0) {
@@ -19,7 +19,7 @@ public class Main {
             }
         }
         //задание 3
-        System.out.println("Задание 3");
+        System.out.println("Задание 3!");
         int year = 2023;
         boolean isLeapYear = year % 4 == 0;
         if ((isLeapYear && year % 100 != 0) || (year % 400 == 0))  {
@@ -29,7 +29,7 @@ public class Main {
         }
 
         //задание 4
-        System.out.println("Задание 4");
+        System.out.println("Задание 4!");
         int deliveryDistance = 95;
         int deliveryDate = 1;
 
@@ -42,7 +42,7 @@ public class Main {
         System.out.println("Время доставки " + deliveryDate+ "!");
 
         //задание 5
-        System.out.println("Задание 5");
+        System.out.println("Задание 5!");
         int monthNumber = 12;
 
         switch (monthNumber) {
